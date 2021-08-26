@@ -12,15 +12,15 @@ function showActors(actors) {
     copy.querySelector(".actor").addEventListener("click", showDetails);
     document.querySelector(".actorlist").appendChild(copy);
     function showDetails() {
-      document.querySelector(".detailbox").classList.remove("hidden");
-      document.querySelector(".detailbox").classList.add("show");
-      document.querySelector(".detailbox h2").textContent = actor.fullname;
-      document.querySelector(".detailbox span").textContent = actor.movie;
+      document.querySelector(".infowindow").classList.remove("hidden");
+      document.querySelector(".infowindow").classList.add("show");
+      document.querySelector(".infowindow h2").textContent = actor.fullname;
+      document.querySelector(".infowindow span").textContent = actor.movie;
       document.querySelector(".close").addEventListener("click", closeInfo);
     }
   });
 }
 function closeInfo() {
-  document.querySelector(".detailbox").classList.remove("show");
-  document.querySelector(".detailbox").classList.add("hidden");
+  document.querySelector(".infowindow").classList.remove("show");
+  document.querySelector(".infowindow").classList.add("hidden");
 }

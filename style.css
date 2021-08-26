@@ -1,6 +1,7 @@
 body {
   background-color: rgb(255, 253, 239);
   display: flex;
+  font-family: sans-serif;
 }
 ul {
   list-style: none;
@@ -15,8 +16,10 @@ li {
 li h2 {
   text-align: center;
 }
-.detailbox {
+.infowindow {
   padding: 2rem;
+  margin-top: 13rem;
+  width: 30%;
   text-align: center;
   background-color: white;
   border: solid black 2px;
@@ -33,4 +36,7 @@ button {
 }
 .show {
   display: block;
+}
+h3 {
+  font-weight: lighter;
 }
