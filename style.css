@@ -1,4 +1,36 @@
 body {
-  background-color: rgb(157, 181, 202);
+  background-color: rgb(255, 253, 239);
   display: flex;
+}
+ul {
+  list-style: none;
+}
+li {
+  background-color: white;
+  border: solid black 2px;
+  margin: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+li h2 {
+  text-align: center;
+}
+.detailbox {
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+  border: solid black 2px;
+  position: fixed;
+}
+button {
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
 }
