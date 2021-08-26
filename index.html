@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Actor List</title>
+  </head>
+  <body>
+    <section id="list">
+      <ul class="actorlist">
+        <template class="actortemplate">
+          <li class="actor">
+            <h2 class="fullname"></h2>
+          </li>
+        </template>
+      </ul>
+    </section>
+
+    <section id="details">
+      <div class="detailbox hidden">
+        <h2 class="fullname"></h2>
+        <h3>Movie: <span>movie</span></h3>
+        <button class="close">Close</button>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
