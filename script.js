@@ -20,7 +20,6 @@ function showActors(actors) {
     }
   });
 }
-
 function closeInfo() {
   document.querySelector(".detailbox").classList.remove("show");
   document.querySelector(".detailbox").classList.add("hidden");
